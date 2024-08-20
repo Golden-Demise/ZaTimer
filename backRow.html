@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <!-- bootstrap.css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+</head>
+<body style="background-color:#0b0b0b;">
+    <!-- navbar -->
+    <nav id="navbar" class="navbar navbar-expand-sm navbar-light bg-light fixed-top">
+        <a class="navbar-brand" href="index.html">Main</a>
+        <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
+            aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <ul class="navbar-nav ml-auto">
+            </ul>
+        </div>
+    </nav>
+    <!-- navbar end -->
+    <header class="jumbotron" style="background: #0b0b0b;">
+        <div class="logo">
+          <a title="Home" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+            <img src="../material/banner.png" style="display:block; margin:auto;" alt="Logo">
+          </a>
+        </div>
+        <div class="nav-wrapper">
+          <span class="icon-menu" style="display: none;"></span>
+          <nav class="user-nav" id="user-nav">
+          </nav>
+        </div>
+    </header>
+    <section class="py-4" style="background-color: gray;">
+        <div class="container">
+            <div class="text-center mb-12">
+                <h2 class="text-center">Welcome Here is admin</h2>
+            </div>
+            <div class="container">
+                <div id="List" class="col">
+                    <!--can-->
+                    <div class="col-md-12 col-6">
+                        <div class="card my-1">
+                            <div class="card-body">
+                                <h4 id="clientShow"></h4>
+                                <h4 class="card-title mb-0">重製時間</h4>
+                                <div class="category-list my-2">
+                                    <button id="reset">Reset</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- footer -->
+        <footer id="footer" class="text-center mt-4">
+            <p>黑笥計時器</p>
+        </footer>
+        <!-- footer end -->
+    </section>
+<!--script-->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<!--  Firebase SDK -->
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-storage.js"></script>
+<!--  js -->
+<script type="text/javascript" src="js/send.js"></script>
+</body>
+</html>
