@@ -35,7 +35,7 @@ function gettime() {
     let shour = document.getElementById('hour').innerText;
     let smin = document.getElementById('min').innerText;
     let ssec = document.getElementById('sec').innerText;
-    let stime = "黑笥已經" + sday + "天" + shour + "小時" + smin + "分鐘" + ssec + "秒沒開台了";
+    let stime = "阿梅已經" + sday + "天" + shour + "小時" + smin + "分鐘" + ssec + "秒沒出現了";
     return stime;
 }
 
@@ -64,7 +64,7 @@ function SetTimer(){
 };
 
 window.addEventListener("load", function() {
-    document.querySelector('#subtitlebox').innerHTML = "距離黑笥上次開台，已經過了：";
+    document.querySelector('#subtitlebox').innerHTML = "阿梅已經這麼久沒出現了：";
     document.querySelector('#loadingboxl').style.display = 'none';
     document.querySelector('#countbox').style.display = 'block';
     setInterval(() => SetTimer(), 1000);
