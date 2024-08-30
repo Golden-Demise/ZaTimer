@@ -130,7 +130,7 @@ input.input100 {
   position: absolute;
   max-width: 70%;
   background-color: #fff;
-  border: 1px solid #b07fff;
+  border: 1px solid #463b57;
   border-radius: 15px;
   padding: 4px 25px 4px 10px;
   top: 50%;
@@ -281,8 +281,8 @@ input.input100 {
 
 /*//////////////////////////////////////////////////////////////////
 [ Background ]*/
-.bg0 {background-color: #fff;}
-.bg1 {background-color: rgba(255,255,255,0.8);}
+.bg0 {background-color: #00000047;}
+.bg1 {background-color: rgba(166, 143, 255, 0.8);}
 
 .bg-img1 {
   background-position: center;
@@ -333,10 +333,10 @@ input.input100 {
   top: 0;
   left: 0;
   background: #d4a3c1;
-  background: -webkit-linear-gradient(bottom, #eec7cc, #d4a3c1);
-  background: -o-linear-gradient(bottom, #eec7cc, #d4a3c1);
-  background: -moz-linear-gradient(bottom, #eec7cc, #d4a3c1);
-  background: linear-gradient(bottom, #eec7cc, #d4a3c1);
+  background: -webkit-linear-gradient(bottom, #e5c7ff, #89619c);
+  background: -o-linear-gradient(bottom, #e5c7ff, #89619c);
+  background: -moz-linear-gradient(bottom, #e5c7ff, #89619c);
+  background: linear-gradient(bottom, #e5c7ff, #89619c);
   opacity: 0.9;
 }
 
